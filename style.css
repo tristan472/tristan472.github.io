@@ -136,14 +136,14 @@ h1{
 }
 
 .bar.bar3::before{
-  width: calc(80% - 10px);
+  width: calc(70% - 10px);
 }
 
 .bar.bar4::before{
-  width: calc(50% - 10px);
+  width: calc(40% - 10px);
 }
 .bar.bar5::before{
-  width: calc(90% - 10px);
+  width: calc(60% - 10px);
 }
 
 .bar.bar6::before{
@@ -154,17 +154,17 @@ h1{
 }
 
 .bar.bar8::before{
-  width: calc(90% - 10px);
+  width: calc(50% - 10px);
 }
 .bar.bar9::before{
   width: calc(30% - 10px);
 }
 
 .bar.bar10::before{
-  width: calc(80% - 10px);
+  width: calc(60% - 10px);
 }
 .bar.bar11::before{
-  width: calc(60% - 10px);
+  width: calc(40% - 10px);
 }
 
 footer{
