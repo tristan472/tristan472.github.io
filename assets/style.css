@@ -1,0 +1,235 @@
+* {
+    box-sizing: border-box;
+    /* border: 1px solid red;           */
+    font-family: monospace;
+    color: #ffffff;
+}
+
+html {
+  height: 100%;
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+    background: linear-gradient(to right, #25c481, #25b7c4);
+    position: relative;
+    padding-bottom: 6rem;
+    min-height: 100%;
+}
+
+body.comp {
+  background: linear-gradient(to right, #7F00FF, #e100ff);
+}
+
+body.proj {
+  background: linear-gradient(to right, #fc5c7d, #6a82fb);
+}
+
+body.sta {
+  background: linear-gradient(to right, #bdc3c7, #2c3e50)  ;
+}
+
+ .nav-link {
+    color: #ffffff;
+} 
+
+nav {
+    box-shadow: 0 0 1rem 0 rgb(0 0 0 / 20%);
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, .15);
+    backdrop-filter: blur(5px);
+}
+
+footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+    box-shadow: 0 0 1rem 0 rgb(0 0 0 / 20%);
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, .15);
+    backdrop-filter: blur(5px);
+}
+
+footer.ind {
+  position: static;
+  bottom: 0;
+  width: 100%
+}
+
+/* footer.sta {
+  position: absolute;
+  bottom: 0;
+  width: 100%
+} */
+
+.gmail a {
+    color: #ffffff;
+    font-size: 30px;
+    margin-left: 15px;
+    margin-right: 15px;
+    text-decoration: none;
+  }
+  
+  .github a {
+    color: #ffffff;
+    font-size: 30px;
+    margin-left: 15px;
+    margin-right: 15px;
+    text-decoration: none;
+  }
+  
+  .linkedin a {
+    color: #ffffff;
+    font-size: 30px;
+    margin-left: 15px;
+    margin-right: 15px;
+    text-decoration: none;
+  }
+
+  .CV a {
+    color: #ffffff;
+    font-size: 23px;
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+
+.main {
+    padding-left: 5%;
+    padding-right: 5%;
+    margin: 10%;
+}
+
+h3.name {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 1%;
+    /* overflow: hidden; */
+    border-right: .15em solid;
+    animation: typing 1s steps(20, end) forwards, blinking .8s infinite;
+ 
+
+  }
+  @keyframes typing {
+    from { width: 100% }
+    to { width: 100% }
+  }
+  @keyframes blinking {
+    from { border-color: transparent }
+    to { border-color: rgb(255, 255, 255); }
+  }
+
+  .txtFooter {
+      color: rgb(255, 255, 255);
+  }
+    
+img {
+  height: 48px;
+  width: 48px;
+}
+
+.containerCompetences {
+  margin-bottom: 5rem;
+  padding-right: 5%;
+  padding-left: 5%;
+}
+
+.row {
+  display: flex;
+  justify-content: space-around;
+  margin-right: 0%;
+  margin-left: 0px;
+}
+
+.col {
+  display: flex;
+    padding-top: 3rem;
+    padding-bottom: 3rem; 
+    align-items: center;
+    justify-content: space-between;
+}
+.row.ligne_comp {
+  width: 45%;
+  display: inline-flex;
+  justify-content: space-around;
+}
+
+.col-md-1 {
+  display: flex;
+  justify-content: center;
+  align-items: center
+}
+
+.titre_comp {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  display: flex;
+  justify-content: center;
+}
+
+.titleTop {
+  text-align: center;
+  padding-top: 5%;
+  padding-left: 5%;
+ 
+}
+
+.row.ligne_compLan {
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+
+.col-sm-6 {
+  display: flex;
+  justify-content: center;
+}
+
+.card-title {
+  color: rgb(131, 116, 116);
+}
+
+.card-text {
+  color: black;
+  height: 156px;
+}
+
+.card-textModule {
+  color: black;
+  height: 156px;
+}
+
+.card-textModule2 {
+  color: black;
+}
+
+.colTitle {
+  padding-top: 2rem;
+    padding-bottom: 1rem;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.containerStages {
+  padding-left: 15%;
+  padding-right: 15%;
+  padding-bottom: 5%;
+}
+
+
+a:hover {
+  color: #ffffff;
+}
+
+.mx-auto {
+  /* padding-left: 85%; */
+} 
